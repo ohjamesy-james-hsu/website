@@ -1,0 +1,414 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.profile1{font-size: 22px !important;}
+		.title {font-size: 15px; padding-top: 52px;}
+		.title-1 {font-size: 22px;}
+		.logosection.about {background: url(../img/about_header_02.png) no-repeat;}
+		.logosection.freebies {background: url(../img/freebies_header_02.png) no-repeat;}
+		.logosection.team {background: url(../img/team_header_02.png) no-repeat;}
+		.logosection.portfolio {background: url(../img/portfolio_header_02.png) no-repeat;}
+		.logosection.services {background: url(../img/services_header_02.png) no-repeat;}
+		.logosection.contact {background: url(../img/contact_header_02.png) no-repeat;}
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		.logosection{width: 150px; height: 105px; margin-top: 60px; margin-left: -77px;}
+		/*  MENU  */
+		.contentMenu {margin: auto; width: 705px;padding-left: 40px;}
+		.menubtn {margin: 0px 8px;  font-size: 13px;}
+		.contentMenu li {margin-top: 104px;}
+		.displaymenu {width: 768px;}
+		#ancla1{top: 520px !important;}
+		#ancla2, #ancla3, #ancla4, #ancla5, #ancla6{top: 140px !important;}
+		
+		/*  BANNER  */
+		#banner {height: 500px;}
+		.infobanner{padding-top: 70px; width: 100%;}
+		.titlebanner{background: url(../img/bannertitle_02.png) no-repeat; width: 400px; height: 188px;}
+		.textbanner {width: 500px; padding-top: 18px; border-top: 2px solid #e56e53; font-size: 16px;}
+		
+		/*  ABOUT  */
+		#about {padding-top: 675px;}
+		.section {width: 768px;}
+		#team .section {width: 768px;}
+		.titlesection {font-size: 35px; margin-bottom: 30px;}
+		.title-2 {font-size: 22px;}
+		.contentsection {margin: 210px auto 0px; font-size: 16px;}
+		.alltweets {margin: 0px 35px 0 10px;}
+		.tweets{width: 463px; font-size: 14px;}
+		.spacer {width: 672px; margin-top: 20px;}
+		.img-about {margin-top: 50px;}
+		.profile-element {margin: 0 18px;}
+		.profile-title {width: 254px;}
+		.pofile-item{width: 260px;}
+		
+		/*  FREEBIES  */
+		.freebiescontent {width: 420px; font-size: 16px;}
+		.bgsepara {height: 300px;}
+		.img-freebies {margin-top: 40px;}
+		.last-projects {padding-top: 220px;}
+		
+		/*  TEAM  */
+				.sides {margin: 20px 11px 100px 11px;}
+		.centre {margin: 20px 15px 100px 15px;}
+		.infomembers {font-size: 18px;}
+		.direction-bar {margin-right: 40px;}
+		.navigation {width: 768px;}
+		.teamcontent {width: 715px; font-size: 16px;}
+		.img-team {margin-top: 45px;}
+		 .teamshow {width: 745px; margin: auto;}
+		 .title-1{font-size: 25px;}
+		 .dir-right {width: 30px;height: 58px;background: url(../img/direction_nav_next_02.png);bottom: 240px;right: -42px;}
+		 .dir-left {width: 30px;height: 58px;background: url(../img/direction_nav_prev_02.png);bottom: 240px;left: -12px;}
+		
+		/*  PORTFOLIO  */
+		.title.portfolio {font-size: 25px;}
+		.portfolio-btn {margin: 12px 25px 0 0;}
+		.element {margin: 50px 15px 0px 15px;}
+		.img-project {margin: 0 20px 10px 25px; width: 390px;}
+		.info-project {margin: 50px 25px 0 20px; float: left;}
+		.foliomenu {margin-left: 30px; width: auto;}
+		.project-content{height: 366px; width: 805px; margin: auto; padding-bottom: 40px;}
+		.close{margin-right: 45px;}
+		.nav-project {width: 540px;top: 420px;}
+		.img-portfolio {margin-top: 60px;}
+		.dotsmenu2 {margin-left: 160px;}
+		.thumb-project {height: 300px;}
+		.video-embed{width: 390px; height: 228px;}
+		.project-one {background: url(../img/projects/imac_01_lite.png) no-repeat; width: 350px; margin-right: 150px; height: 300px;}
+		.project-two {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-three {background: url(../img/projects/imac_03_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-four {background: url(../img/projects/imac_04_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-five {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		
+		/*  SERVICES  */
+		.title.services {font-size: 23px;}
+		.disciplines {width: 720px;margin-left: 0px;}
+		.works {width: 225px; margin-right: 15px;}
+		.titleworks {font-size: 15px;}
+		.iconworks {padding: 7px 9px 15px 0;}
+		.psd{background: url(../img/stats_photoshop_02.png) no-repeat;}
+		.ae{background: url(../img/stats_after_02.png) no-repeat;}
+		.ai{background: url(../img/stats_illustrator_02.png) no-repeat;}
+		.dream{background: url(../img/stats_dreamweaver_02.png) no-repeat;}
+		.skills {width: 180px; height: 176px;}
+		.software {width: 720px;margin: auto;margin-bottom: 60px;}
+		.img-contact {margin-top: 55px;}
+		
+		/*  CONTACT*/
+		.title.contact {font-size: 22px;}
+		#messageform {width: 385px;}
+		#emailform {width: 165px;}
+		#nameform {width: 165px; margin-bottom: 15px;}
+		#formulario {width: 425px;margin-top: 0;}
+		.email {margin: 20px 0px 10px 20px;}
+		.phone {margin: 20px 0px 20px 20px;}
+		.skype{margin: 10px 0px 0px 20px;}
+		.titlecontact {margin-left: 35px;}
+		.contactinfo {width: 243px; margin-top: 0;margin-bottom: 100px;}
+		.contact-title {background: url(../img/contact-title_02.png) no-repeat;width:700px;height: 67px;}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.title.contact {font-size: 22px;}
+		.contact-title {background: url(../img/contact-title_03.png) no-repeat;width: 475px;height: 45px;}
+		.services-title {background: url(../img/services-title_02.png) no-repeat;width: 475px;height: 66px;}
+		.dir-left{bottom: 250px;left: -250px;}
+		.dir-right{bottom: 250px;right: -250px;}
+		.dots {display: none;}
+		.direction-bar {width: 75px;height: 34px; margin: auto; float: inherit;}
+		#ancla1{position: absolute; top: 400px;}
+		#options {padding-bottom: 0px;}
+		.title-profile {background: url(../img/profile_title_02.png) no-repeat;width: 500px;height: 55px;}
+		.last-projects {padding-top: 20px;}
+		.profile {width: auto;}
+		.last-project-title {background: url(../img/lastest-title_02.png) no-repeat;width: 475px;height: 59px;margin-top: 30px;}
+		.team-title {background: url(../img/team-title_02.png) no-repeat;width: 475px;height: 56px;margin-top: 10px;}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.profile-element {margin: 15px 0 0 0;}
+		.logosection{width: 150px; height: 105px; margin-top: 22px; margin-left: -77px;}
+		.pofile-item {width: 215px; float: inherit;margin: auto;}
+		.profile-title {width: 230px;}
+		
+		/*  MENU & BANNER */
+		.contentMenu .logo {margin: 35px 0px 20px 0px; background: url(../img/orionlogo_02.png) no-repeat;}
+		.navegation_resp{visibility: visible;display: block;position: absolute;width: 126px;top: 120px;left: 12px;font-size: 13px; font-family: 'Open Sans', sans-serif;}
+		.contentMenu .logo {display: inherit;position: relative;left: 50%;margin-left: -75px;}
+		.contentMenu li{display: none;}
+		.contentMenu{margin: auto; width: 100%;padding-left: 0;}
+		.displaymenu {width: 100%;}
+		.titlebanner{background: url(../img/bannertitle_02.png) no-repeat; width: 400px; height: 188px;}
+		.textbanner {width: 400px; font-size: 12px; padding-top: 10px; border-top: 2px solid #e56e53;}
+		#banner {height: 400px;}
+		.infobanner {padding-top: 35px; width: 100%;}
+		.bannerfoot {padding: 0 5px 0px 0;}
+				
+		/*  ABOUT  */
+		#about {padding-top: 580px;}
+		.topline {margin-top: 75px;}
+		.titlesection {margin-bottom: 35px;}
+		.section {width: auto; padding-top: 150px; padding-bottom: 20px;}
+		#team .section {width: auto;}
+		.contentsection {margin: 0; text-align: center;}
+		.titlesection{line-height: 25px; font-size: 30px; text-align: center; width: 100%;}
+		#freebies .titlesection {line-height: 35px;}
+		.title-2 {font-size: 20px;}
+		.tweets{width: auto; margin-top: 20px; margin-bottom: 20px; float: inherit; margin-left: 35px;}
+		.symbol {margin: auto; float: left; margin-top: 5px;}
+		.twitersection{height: auto;}
+		.alltweets{margin: auto; top: 20px;}
+		.spacer {display: none;}
+		
+		/*  FREEBIES  */
+		.imagefribbies {margin: auto; float: inherit;width: 475px;height: 279px;background: url(../img/macbook-base_02.png) no-repeat}
+		.pantallaFondo {margin: 15px 0 0 61px; width: 355px;height: 225px;}
+		.pantalla {margin: 15px 0 0 61px;width: 355px;height: 225px;}
+		.wall0 {background: url(../img/wall1_02.jpg) no-repeat;}
+		.wall1 {background: url(../img/wall2_02.jpg) no-repeat;}
+		.wall2 {background: url(../img/wall3_02.jpg) no-repeat;}
+		.wall3 {background: url(../img/wall4_02.jpg) no-repeat;}
+		.brillo {width: 355px;height: 237px;background: url(../img/shine_02.png) no-repeat;margin-left: 50px;}
+		.freebiescontent {margin: 20px 30px 30px 30px; width: auto; text-align: center; float: inherit;}
+		.download {margin: auto; float: inherit; margin-top: 20px;}
+		.img-freebies {background: url(../img/title_02_02.png) no-repeat; width: 450px; height: 136px; margin-left: -225px; margin-top: 100px;}
+		
+		/*  TEAM  */
+		.teamhead {padding: 15px 35px 0px 20px;}
+		.titlesection.ourteam {float: inherit;}
+		.teamdescription { border: none;height: auto; float: inherit; padding: 0; text-align: center;}
+		.teamcontent {margin: 20px 0px 30px 0px; width: auto; text-align: center; float: inherit;}
+		.infomembers {font-size: 18px;}
+		.socialicons {width: auto;}
+		.teamshow {width: auto;}
+		.centre, .sides {margin: 20px 10px 100px 0px;}
+		.infomembers {font-size: 17px;}
+		.teamshow {width: 452px; margin: auto;}
+		.navigation {width: auto;}
+		.teamlist{height: 400px;}
+		
+		/*  PORTFOLIO  */
+		.title.portfolio {font-size: 18px;}
+		.portfoliocontent {padding-top: 10px !important;}
+		#portfolio2 {height: 170px;}
+		#container2 {width: 490px; margin: auto; padding-bottom: 50px;}
+		.element {margin: 50px 10px 0px 10px;}
+		.all-btn, .websites-btn, .design-btn, .motion-btn, .branding-btn{display: none;}
+		.portfolio-btn {margin: 12px 20px 0 0;}
+		.folio-btn {padding-left: 0; line-height: normal;}
+		.foliomenu {width: 400px; margin: auto;}
+		.infoproject {font-size: 20px;}
+		.info-pf{position: relative;}
+		.img-portfolio {background: url(../img/title_04_02.png) no-repeat; width: 400px; height: 143px; margin-left: -200px; margin-top: 110px;}
+		.close{margin-right: 0px;}
+		.nav-project {width: 480px;position: relative;top: 0px;}
+		.dotsmenu2 {margin-left: inherit;position: absolute;top: -310px;left: 192px;}
+		.thumb-project {height: 300px;margin: 30px 10px 10px 10px;}
+		.video-embed{width: 390px; height: 228px;}
+		.img-project {float: inherit; width: 371px; margin: auto;padding-bottom: 30px;}
+		.info-project {padding-top: 5px;; float:inherit; margin: auto; text-align: center; width: 460px;}
+		.project-content {width: 480px; overflow:inherit;padding-bottom: 30px;}
+		.project-nav {margin-right: 0px;}
+		.project-one {background: url(../img/projects/imac_01_lite.png) no-repeat; width: 350px; margin-right: 150px; height: 300px;}
+		.project-two {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-three {background: url(../img/projects/imac_03_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-four {background: url(../img/projects/imac_04_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-five {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		
+		/*  SERVICES  */
+		.title.services {font-size: 23px;}
+		.servicesdescription {border: none; height: auto; float: inherit; padding: 0; text-align: center;}
+		.disciplines {width: 450px; margin: auto; padding-bottom: 30px; padding-top: 15px;}
+		.works {width: 190px; height: auto; margin: auto; margin-bottom: 20px; margin-right: 10px; margin-left: 20px; font-size: 14px;}
+		.iconworks {padding: 7px 5px 15px 0; width: 35px;}
+		.titleworks {font-size: 12px;}
+		.software {display: none;}
+		
+		/*  CONTACT  */
+		.contactdescription {border: none; height: auto; float: inherit; padding: 0; text-align: center; color: #fff;}
+		#formulario, #messageform, #nameform {width: 460px; float: inherit; margin: auto;}
+		#nameform, #emailform, #messageform {width: 420px; float: inherit;}
+		#nameform{margin-bottom: 15px;}
+		p {margin-bottom: 15px;}
+		.contactinfo {margin-bottom: 40px; float: inherit;}
+		
+		
+	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.last-projects {padding-top: 20px;margin-left: -50%;margin-right: -192px;}
+		.contact-title {background: url(../img/contact-title_04.png) no-repeat;width: 350px;height: 34px;}
+		.services-title {background: url(../img/services-title_03.png) no-repeat;width: 350px;height: 49px;}
+		.team-title {background: url(../img/team-title_03.png) no-repeat;width: 350px;height: 42px;margin-top: 10px;}
+		.last-project-title {background: url(../img/lastest-title_03.png) no-repeat;width: 350px;height: 43px;margin-top: 30px;}
+		.title-profile {background: url(../img/profile_title_03.png) no-repeat;width: 350px;height: 39px;}
+		.pofile-item{float: inherit;margin: auto;}
+		.imagefribbies {margin: auto; float: inherit;width: 475px;height: 279px;background: url(../img/macbook-base_02.png) no-repeat}
+		.pantallaFondo {margin: 15px 0 0 61px; width: 355px;height: 225px;}
+		.pantalla {margin: 15px 0 0 61px;width: 355px;height: 225px;}
+		.wall0 {background: url(../img/wall1_02.jpg) no-repeat;}
+		.wall1 {background: url(../img/wall2_02.jpg) no-repeat;}
+		.wall2 {background: url(../img/wall3_02.jpg) no-repeat;}
+		.wall3 {background: url(../img/wall4_02.jpg) no-repeat;}
+		.brillo {width: 355px;height: 237px;background: url(../img/shine_02.png) no-repeat;margin-left: 50px;}
+		.title.portfolio {font-size: 18px;}
+		.title.services {font-size: 23px;}
+		.title.contact {font-size: 22px;}
+		/*  MENU & BANNER */
+		.contentMenu .logo {margin: 35px 0px 20px 0px; /*background: url(../img/orionlogo_02.png) no-repeat;*/}
+
+		.navegation_resp{visibility: visible;display: block;position: absolute;width: 126px;top: 120px;left: 12px;font-size: 13px; font-family: 'Open Sans', sans-serif;}
+		.contentMenu .logo {display: inherit;position: relative;left: 50%;margin-left: -75px;}
+		.contentMenu li{display: none;}
+		.contentMenu{margin: auto; width: 100%;padding-left: 0;}
+		.displaymenu {width: 100%;}
+		.titlebanner{background: url(../img/bannertitle_03.png) no-repeat; width: 340px; height: 160px;}
+		.textbanner {width: 340px; font-size: 12px; padding-top: 10px; border-top: 2px solid #e56e53;}
+		#banner {height: 400px;}
+		.infobanner {padding-top: 35px; width: 100%;}
+		.bannerfoot {width: 30px; height: 15px; background: url(../img/bannerfooter_02.png) no-repeat;padding: 0 4px 0px 0;}
+		
+		/*  ABOUT  */
+		#about {padding-top: 580px;}
+		.logosection {width: 150px;height: 105px;margin-top: 22px; margin-left: -77px;}
+
+		.topline {margin-top: 75px;}
+		
+		.titlesection {margin-bottom: 10px; font-size: 25px;}
+		.title-2 {font-size: 20px;}
+		.section {width: auto; padding-top: 150px; padding-bottom: 20px;}
+		#team .section {width: auto;}
+		.contentsection {margin: 0;text-align: center;}
+		.titlesection{line-height: 25px; font-size: 23px; text-align: center; width: 100%;}
+		.tweets{width: auto; text-align: center; margin-top: 20px; margin-bottom: 20px;}
+		.symbol {margin: auto; float: inherit;}
+		.twitersection{height: auto;}
+		.alltweets{float: inherit; top: 20px; margin-left: 31%;}
+		.spacer {display: none;}
+		
+		/*  FREEBIES  */
+		.imagefribbies {margin: auto; float: inherit;}
+		.freebiescontent {margin: 20px 30px 30px 30px; width: auto; text-align: center; float: inherit; font-size: 15px;}
+		.download {margin: auto; float: inherit; margin-top: 20px;}
+		.img-freebies {background: url(../img/title_02_03.png) no-repeat; width: 370px; height: 112px; margin-left: -186px; margin-top: 123px;}
+		#freebies .titlesection {font-size: 25px;}
+		
+		/*  TEAM  */
+		.titlesection.ourteam {font-size: 34px; margin-left: 28px;}
+		.teamhead {padding: 0;}
+		.titlesection.ourteam {float: inherit;}
+		.teamdescription { border: none;height: auto; float: inherit; padding: 0; text-align: center; font-size: 15px;}
+		.teamcontent {margin: 20px 0px 30px 0px; width: auto; text-align: center; float: inherit; font-size: 15px;}
+		.infomembers {font-size: 18px;}
+		.socialicons {width: auto;}
+		.teamshow {width: auto;}
+		.centre, .sides {margin: 20px 10px 100px 0px;}
+		.infomembers {font-size: 17px;}
+		.teamshow {width: 228px; margin: auto;}
+		.navigation {width: auto;}
+		.teamlist{height: 380px;}
+		.dir-right {bottom: 235px;right: -140px;}
+		.dir-left {bottom: 235px;left: -145px;}
+		
+		/*  PORTFOLIO  */
+		.portfoliocontent {padding-top: 10px !important;}
+		#portfolio2 {height: 170px;}
+		#container2 {width: 247px; margin: auto; padding-bottom: 50px;}
+		.element {margin: 50px 10px 0px 10px;}
+		.all-btn, .websites-btn, .design-btn, .motion-btn, .branding-btn{display: none;}
+		.portfolio-btn {margin: 12px 13px 0 0; font-size: 14px;}
+		.folio-btn {padding-left: 0; line-height: normal;}
+		.foliomenu {width: 350px; height: 49px; margin: auto;}
+		.infoproject {font-size: 20px;}
+		.info-pf{position: relative;}
+		.img-portfolio {background: url(../img/title_04_03.png) no-repeat; width: 300px; height: 107px; margin-left: -150px; margin-top: 135px;}
+		.close{margin-right: 10px;}
+		.nav-project {width: auto;position: relative;top: 0;}
+		.dotsmenu2 {margin-left: inherit;position: absolute;top: -375px;left: 154px;}
+		.thumb-project {height: 300px;}
+		.video-embed{width: 390px; height: 228px;}
+		.img-project {float: inherit; width: 371px; margin: auto;padding-bottom: 0px;}
+		.info-project {padding-top: 30px; float:inherit; margin: auto; text-align: center; width: 350px;}
+		.project-content {width: 388px;padding-bottom: 30px;}
+		.project-nav {margin-right: 0px;}
+		.project-one {background: url(../img/projects/imac_01_lite.png) no-repeat; width: 350px; margin-right: 150px; height: 300px;}
+		.project-two {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-three {background: url(../img/projects/imac_03_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-four {background: url(../img/projects/imac_04_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		.project-five {background: url(../img/projects/imac_02_lite.png) no-repeat; width: 350px; margin-right: 150px;height: 300px;}
+		
+		/*  SERVICES  */
+		.servicesdescription {border: none; height: auto; float: inherit; padding: 0; text-align: center; font-size: 15px;}
+		.disciplines {width: 345px; margin: auto; padding-bottom: 30px; padding-top: 15px;}
+		.works {width: 304px; height: auto; margin: auto; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; font-size: 14px;}
+		.iconworks {padding: 7px 10px 15px 0; width: 52px;}
+		.titleworks {font-size: 17px;}
+		.software {display: none;}
+		
+		/*  CONTACT  */
+		.title.contact {font-size: 14px;}
+		.contactdescription {border: none; height: auto; float: inherit; padding: 0; text-align: center; color: #fff; font-size: 15px;}
+		#formulario, #messageform, #nameform {width: 343px;; float: inherit; margin: auto;}
+		#nameform, #emailform, #messageform {width: 307px; float: inherit;}
+		#nameform{margin-bottom: 15px;}
+		p {margin-bottom: 15px;}
+		.contactinfo {margin-bottom: 40px; float: inherit;}
+		.titlecontact {margin-left: 20px;}
+		.email {margin: 20px 0px 10px 20px;}
+		.phone {margin: 20px 0px 20px 20px;}
+		.skype {margin: 10px 0px 0px 20px;}
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
