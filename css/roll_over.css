@@ -30,9 +30,9 @@
 	text-transform: uppercase;
 	position: relative;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: 20px;
 	padding: 40px 0 0 0;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'mensch', Arial, sans-serif;
 	text-align: center;
 	width: 180px;
 	margin: auto;
@@ -46,7 +46,7 @@
 	letter-spacing: 2px;
 	font-size: 22px;
 	padding: 40px 0 0 0;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'mensch', Arial, sans-serif;
 	text-align: center;
 	width: 221px;
 	margin: auto;
